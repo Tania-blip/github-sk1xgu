@@ -1,0 +1,9 @@
+
+.finished{
+  background: green;
+  color: white;
+}
+.notFinished{
+  background: red;
+  color: white;
+}

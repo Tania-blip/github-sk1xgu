@@ -1,0 +1,86 @@
+.finished{
+  background: green;
+  color: white;
+}
+
+.notFinished{
+  background: red;
+  color: white;
+}
+
+ul{
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+ul li{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px
+  /*width: 100%;*/
+}
+
+ul li button{
+  margin: 0 5px;
+}
+
+ul li button:first-child{
+  margin: 0 5px;
+  min-width: 128px;
+}
+
+form{
+  width: 50%;
+  /*margin: 50px 200px;*/
+}
+button{
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background: #007bff;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+button:hover{
+  background: #0263cc;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+ul>li{
+  list-style-type: none;
+  padding: 15px 20px;
+  border-radius: 30px;
+  box-shadow: 2px 2px 7px 1px gray;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}

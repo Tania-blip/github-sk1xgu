@@ -1,0 +1,13 @@
+{
+  "name": "workshop",
+  "version": "1.0.0",
+  "description": "",
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LSAC-ONG/workshop.git"
+  }
+}
